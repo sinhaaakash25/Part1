@@ -13,6 +13,11 @@
 		2ED7F4732680AD1D0099F16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED7F4722680AD1D0099F16F /* Assets.xcassets */; };
 		2ED7F4762680AD1D0099F16F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED7F4752680AD1D0099F16F /* Preview Assets.xcassets */; };
 		2ED7F4792680AD1D0099F16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED7F4772680AD1D0099F16F /* LaunchScreen.storyboard */; };
+		2ED7F4842680AD770099F16F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED7F4832680AD770099F16F /* OnboardingView.swift */; };
+		2ED7F48D2680FC7C0099F16F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED7F48C2680FC7C0099F16F /* DashboardView.swift */; };
+		2ED7F4932681C8380099F16F /* ListImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED7F4922681C8370099F16F /* ListImageView.swift */; };
+		2ED7F4972681CA200099F16F /* DashboardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED7F4962681CA200099F16F /* DashboardHeaderView.swift */; };
+		2ED7F49B2681CBA70099F16F /* ColorPalletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED7F49A2681CBA70099F16F /* ColorPalletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2ED7F4752680AD1D0099F16F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2ED7F4782680AD1D0099F16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ED7F47A2680AD1D0099F16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED7F4832680AD770099F16F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2ED7F48C2680FC7C0099F16F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		2ED7F4922681C8370099F16F /* ListImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageView.swift; sourceTree = "<group>"; };
+		2ED7F4962681CA200099F16F /* DashboardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardHeaderView.swift; sourceTree = "<group>"; };
+		2ED7F49A2681CBA70099F16F /* ColorPalletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalletteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		2ED7F46B2680AD190099F16F /* AGC */ = {
 			isa = PBXGroup;
 			children = (
+				2ED7F4822680AD5B0099F16F /* SubView */,
+				2ED7F4812680AD440099F16F /* Screens */,
 				2ED7F46C2680AD190099F16F /* AppDelegate.swift */,
 				2ED7F46E2680AD190099F16F /* SceneDelegate.swift */,
 				2ED7F4702680AD190099F16F /* ContentView.swift */,
@@ -73,6 +85,25 @@
 				2ED7F4752680AD1D0099F16F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2ED7F4812680AD440099F16F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2ED7F4832680AD770099F16F /* OnboardingView.swift */,
+				2ED7F48C2680FC7C0099F16F /* DashboardView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2ED7F4822680AD5B0099F16F /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				2ED7F4922681C8370099F16F /* ListImageView.swift */,
+				2ED7F4962681CA200099F16F /* DashboardHeaderView.swift */,
+				2ED7F49A2681CBA70099F16F /* ColorPalletteView.swift */,
+			);
+			path = SubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED7F46D2680AD190099F16F /* AppDelegate.swift in Sources */,
+				2ED7F48D2680FC7C0099F16F /* DashboardView.swift in Sources */,
+				2ED7F4932681C8380099F16F /* ListImageView.swift in Sources */,
+				2ED7F4842680AD770099F16F /* OnboardingView.swift in Sources */,
+				2ED7F4972681CA200099F16F /* DashboardHeaderView.swift in Sources */,
 				2ED7F46F2680AD190099F16F /* SceneDelegate.swift in Sources */,
 				2ED7F4712680AD190099F16F /* ContentView.swift in Sources */,
+				2ED7F49B2681CBA70099F16F /* ColorPalletteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
